@@ -3,6 +3,7 @@ version: "3.3"
 services:
   backend:
     image: node:lts-slim
+    restart: always
     #privileged: true
     working_dir: "/app"
     user: "${UID}:${GID}"

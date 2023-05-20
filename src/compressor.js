@@ -116,6 +116,8 @@ async function main(port_path) {
     return results; 
 }
 // main('/dev/ttyUSB0')
+
 exports.readCompressor = main;
 exports.states = states;
 exports.sensors = sensors;
+
